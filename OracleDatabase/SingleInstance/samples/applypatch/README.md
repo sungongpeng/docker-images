@@ -8,12 +8,13 @@ The scripts will automatically install a newer OPatch version, if provided.
 # The patch structure
 The scripts used in this example rely on following directory structure:
 
-    12.2.0.1
+    19.3.0
        patches
           001 (patch directory)
              pNNNNNN_RRRRRR.zip  (patch zip file)
           002 (optional)
           00N (optional, Nth patch directory)
+          
           p6880880*.zip (optional, OPatch zip file)
        
 **patches:** The working directory for patch installation.  
